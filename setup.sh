@@ -30,7 +30,7 @@ gsettings set org.gnome.desktop.screensaver lock-delay 0
 printf "\n"
 sleep 3
 printf "⑤  '.vimrc' 파일을 생성하였습니다.\n"
-cat << EOF > ~/.vimrc
+cat <<EOF> ~/.vimrc
 set nu
 set ts=4
 set title
@@ -41,7 +41,7 @@ EOF
 printf "\n"
 sleep 3
 printf "⑥  '.bashrc' 파일에 alias와 PS1 환경 변수를 설정하였습니다.\n"
-cat << EOF >> ~/.bashrc
+cat <<EOF>> ~/.bashrc
 alias vi='vim'
 alias ls='ls --color=auto --time-style=long-iso'
 export PS1='[\u@\h \$PWD]# '
