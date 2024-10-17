@@ -6,6 +6,7 @@ cat <<EOF> ip_list.txt
 168.126.63.1
 www.google.com
 EOF
+
 sleep 3
 printf "\n"
 
