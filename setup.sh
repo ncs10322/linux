@@ -72,7 +72,7 @@ cd
 printf "⑨  sestatus 를 실시하여 SElinux 모드가 permissive 로 변경되었는지 확인하세요.\n"
 printf "⑩  systemctl status firewalld 를 실시하여 방화벽 상태가 inactive 으로 변경되었는지 확인하세요.\n"
 printf "⑪  cat .vimrc 를 실시하여 set 설정 내용이 저장되었는지 확인하세요.\n"
-printf "⑫  cat .bashrc 를 실시하여 alias 설정과 PS1 환경 번수 내용이 저장되었는지 확인하세요.\n"
+printf "⑫  cat .bashrc 를 실시하여 alias 설정과 PS1 환경 변수 내용이 저장되었는지 확인하세요.\n"
 printf "⑬  cat /etc/passwd 를 실시하여 user1, user2 계정이 생성되었는지 확인하세요.\n"
 printf "⑭  확인이 완료되었다면, init 0 명령을 실시하여 시스템을 정상 종료하세요.\n"
 printf "\n"
