@@ -62,6 +62,8 @@ useradd user2
 echo "centos" | passwd --stdin user1
 echo "centos" | passwd --stdin user2
 printf "\n"
+echo 'PermitRootLogin yes' >> /etc/ssh/sshd_config
+systemctl restart sshd
 sleep 3
 printf "======================================\n"
 printf "CentOS 기본 환경 구성이 완료되었습니다.\n"
